@@ -1,4 +1,4 @@
-const swap=(arr:number[],index1:number,index2:number)=>{
+export const swap=(arr:number[],index1:number,index2:number)=>{
     let temp=arr[index1]
     arr[index1]=arr[index2]
     arr[index2]=temp
@@ -12,5 +12,3 @@ const bubbleSort=(arr:number[]):number[]=>{
     }
     return arr
 }
-
-console.log(bubbleSort([6,3,2,5,1]))
